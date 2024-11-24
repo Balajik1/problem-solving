@@ -68,7 +68,7 @@ class Solution {
                 indegree[it]+=1;
             }
         }
-        // adding node who are has no outdegree
+        // adding node who are has no out degree
         for(int i=0;i<n;i++){
             if(indegree[i]==0)
                 q.add(i);
